@@ -21,13 +21,13 @@ st.markdown('''
 This application will assist you to get better and customized Health advice. You can ask you health related issues and get 
 the personalized guidance.''')
 
-tips = '''
+st.write('''
 Follow these steps:
 * Enter your details in sidebar
 * Rate your activity and fitness on the scale of 0-5
 * submit your details.
 * Ask your question on the main page.
-* Click generate and relax'''
+* Click generate and relax''')
 
 # Design the sidebar for all the user parameters
 st.sidebar.header(':red[Enter Your Details]')
